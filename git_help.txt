@@ -1,15 +1,19 @@
 建立新库--->上传文件
+
 建立新库：
 git config --global user.name 用户名
 git config --global user.email 用户邮箱
 cat ~/.gitconfig
 建立README.md
-
-上传文件部分：
-
 git init: 初始化 git
 git add . : 将本地项目保存到缓存区区
 git commit -m "注释" ：将项目从缓存区提交到本地仓库
 git remote add origina 仓库地址：配置远程仓库地址
 git push -u origina master: 将本地仓库项目提交到远程仓库
 git pull： 将远程仓库和本地仓库进行同步（刷新本地仓库）
+
+
+上传文件部分：
+git add . : 将本地项目保存到缓存区区
+git commit -m "注释" ：将项目从缓存区提交到本地仓库
+git push：将项目出入远程仓库
